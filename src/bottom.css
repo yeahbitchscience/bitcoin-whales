@@ -1,0 +1,763 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #96c7cc 0%, #c3ddd8 30%, #c3ddd8 100%);
+    overflow: hidden;
+    
+}
+.gradientContainer {
+    height: 35vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e5e5, #0d3f53);
+    position: absolute;
+    z-index: 200;
+}
+.overlay {
+    width: 100%;
+    height: 35vh;
+    position: absolute;
+    width: 100vw;
+}
+.overlay.one {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, #0b4558 100%);
+    z-index: 100;
+    width: 100vw;
+}
+
+
+
+
+.bubbleContainer {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    animation-name: bubblesIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes bubblesIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+.bubbleX1 {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY1 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 5px;
+    left: 10px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 3s;
+}
+@keyframes bubbleX1 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(8px);
+   }
+    40% {
+        transform: translateX(1px);
+   }
+    60% {
+        transform: translateX(10px);
+   }
+    80% {
+        transform: translateX(10px);
+   }
+    100% {
+        transform: translateX(15px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX2 {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY2 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 25px;
+    left: 24px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 3s;
+}
+@keyframes bubbleX2 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(11px);
+   }
+    40% {
+        transform: translateX(13px);
+   }
+    60% {
+        transform: translateX(4px);
+   }
+    80% {
+        transform: translateX(6px);
+   }
+    100% {
+        transform: translateX(13px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX3 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY3 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 39px;
+    left: 111px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 1s;
+}
+@keyframes bubbleX3 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(7px);
+   }
+    40% {
+        transform: translateX(6px);
+   }
+    60% {
+        transform: translateX(12px);
+   }
+    80% {
+        transform: translateX(4px);
+   }
+    100% {
+        transform: translateX(4px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX4 {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY4 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 65px;
+    left: 110px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 3s;
+}
+@keyframes bubbleX4 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(4px);
+   }
+    40% {
+        transform: translateX(9px);
+   }
+    60% {
+        transform: translateX(13px);
+   }
+    80% {
+        transform: translateX(9px);
+   }
+    100% {
+        transform: translateX(8px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX5 {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY5 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 77px;
+    left: 133px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 1s;
+}
+@keyframes bubbleX5 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(11px);
+   }
+    40% {
+        transform: translateX(7px);
+   }
+    60% {
+        transform: translateX(7px);
+   }
+    80% {
+        transform: translateX(10px);
+   }
+    100% {
+        transform: translateX(13px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX6 {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY6 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 98px;
+    left: 80px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 1s;
+}
+@keyframes bubbleX6 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(3px);
+   }
+    40% {
+        transform: translateX(12px);
+   }
+    60% {
+        transform: translateX(5px);
+   }
+    80% {
+        transform: translateX(2px);
+   }
+    100% {
+        transform: translateX(13px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX7 {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX7;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY7 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 50px;
+    left: 146px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 3s;
+}
+@keyframes bubbleX7 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(9px);
+   }
+    40% {
+        transform: translateX(11px);
+   }
+    60% {
+        transform: translateX(12px);
+   }
+    80% {
+        transform: translateX(2px);
+   }
+    100% {
+        transform: translateX(11px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX8 {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX8;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY8 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 7px;
+    left: 15px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 3s;
+}
+@keyframes bubbleX8 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(15px);
+   }
+    40% {
+        transform: translateX(4px);
+   }
+    60% {
+        transform: translateX(12px);
+   }
+    80% {
+        transform: translateX(3px);
+   }
+    100% {
+        transform: translateX(8px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX9 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX9;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY9 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 72px;
+    left: 17px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 2s;
+}
+@keyframes bubbleX9 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(2px);
+   }
+    40% {
+        transform: translateX(14px);
+   }
+    60% {
+        transform: translateX(1px);
+   }
+    80% {
+        transform: translateX(10px);
+   }
+    100% {
+        transform: translateX(3px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+.bubbleX10 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    animation-name: bubbleX10;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubbleY10 {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: 86px;
+    left: 79px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: 0.6;
+    animation-delay: 2s;
+}
+@keyframes bubbleX10 {
+    0% {
+        transform: translateX(0);
+   }
+    20% {
+        transform: translateX(12px);
+   }
+    40% {
+        transform: translateX(7px);
+   }
+    60% {
+        transform: translateX(11px);
+   }
+    80% {
+        transform: translateX(13px);
+   }
+    100% {
+        transform: translateX(1px);
+   }
+}
+@keyframes bubbleY {
+    0% {
+        transform: translateY(0);
+   }
+    50% {
+        transform: translateY(-30px);
+   }
+    100% {
+        transform: translateY(-60px);
+        opacity: 0;
+   }
+}
+
+.whaleContainer {
+    position: relative;
+    transform: translateX(0);
+    animation-name: whaleTranslate;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 7000;
+}
+@keyframes whaleTranslate {
+    0% {
+        transform: translateX(0);
+   }
+    100% {
+        transform: translateX(100vw);
+   }
+}
+.whalePos {
+    position: absolute;
+    z-index: 1000;
+}
+.whalePos.size1 {
+    top: 5vh;
+    left: -210px;
+}
+.whalePos.size2 {
+    top: 8vh;
+    left: -280px;
+}
+.whalePos.size3 {
+    top: 10vh;
+    left: -140px;
+}
+.whalePos.size4 {
+    top: 12vh;
+    left: -310px;
+}
+.whaleRotate {
+    position: relative;
+    width: 245px;
+    height: 110px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.whaleRotate.size1 {
+    transform: rotate(0) scale(0.35);
+    animation-name: whaleMovementXLarge;
+}
+.whaleRotate.size2 {
+    transform: rotate(0) scale(0.25);
+    animation-name: whaleMovementLarge;
+}
+.whaleRotate.size3 {
+    transform: rotate(0) scale(0.15);
+    animation-name: whaleMovementMedium;
+}
+.whaleRotate.size4 {
+    transform: rotate(0) scale(0.1);
+    animation-name: whaleMovementSmall;
+}
+@keyframes whaleMovementXLarge {
+    0% {
+        transform: rotate(0) scale(0.35);
+   }
+    100% {
+        transform: rotate(10deg) scale(0.35);
+   }
+}
+@keyframes whaleMovementLarge {
+    0% {
+        transform: rotate(0) scale(0.25);
+   }
+    100% {
+        transform: rotate(10deg) scale(0.25);
+   }
+}
+@keyframes whaleMovementMedium {
+    0% {
+        transform: rotate(0) scale(0.15);
+   }
+    100% {
+        transform: rotate(10deg) scale(0.15);
+   }
+}
+@keyframes whaleMovementSmall {
+    0% {
+        transform: rotate(0) scale(0.1);
+   }
+    100% {
+        transform: rotate(10deg) scale(0.1);
+   }
+}
+.whale {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: radial-gradient(at 40% 20%, #95d6df 0%, #95d6df 35%, #6db3c2 35%, #6db3c2 60%, #6db3c2 70%, #407a8b 70%, #407a8b 100%);
+    clip-path: polygon(15% 0%, 18.5% 20%, 19% 37%, 27% 46.5%, 33% 46.5%, 42.5% 37%, 43% 26.5%, 50.5% 28.5%, 65.5% 17%, 88.5% 12.5%, 97.5% 22.5%, 100% 49.5%, 97% 65.5%, 89.5% 81.5%, 64.5% 86.5%, 43.5% 80%, 23% 59.5%, 15.5% 41.5%, 8% 40%, 1.5% 28.5%, 6.5% 25%, 12.5% 26.5%, 12% 14%);
+}
+.fin {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    z-index: 5000;
+    width: 50px;
+    height: 30px;
+    background: #407a8b;
+    transform-origin: center top;
+    clip-path: polygon(30% 50%, 60% 0, 100% 0%, 80% 60%, 60% 80%, 0 100%);
+    animation-name: fin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes fin {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+   }
+    100% {
+        transform: rotate3d(1, 1, 1, 30deg);
+   }
+}
+
+.wbody {
+ 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+

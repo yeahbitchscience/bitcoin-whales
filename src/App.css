@@ -1,0 +1,1544 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Ysabeau+Office:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.App {
+  text-align: center;
+  background-color: #c3ddd8;
+  width: 100vw;
+}
+
+.sbody {
+  display: grid;
+  place-content: center;
+  height: 40vh;
+  padding-left: 20vw;
+}
+
+/*head*/
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding-top: 2vh;
+  background-color: #96c7cc;
+}
+
+.icon1{
+  max-height: 12vh;
+  margin-left: 2vw;
+}
+
+.icon2{
+  max-height: 3vh;
+  margin-top: 2vh;
+  margin-right: 2vw;
+}
+
+/*main img*/
+
+.three{
+  display: flex;
+  width: 90vw;
+  transform: translateY(-14vw);
+  padding-top: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p1{
+  width: 32vw;
+  transform: translateX(50%);
+  margin: 0;
+}
+.p2{
+  width: 32vw;
+  z-index: 2;
+  margin: 0;
+}
+.p3{
+  width: 32vw;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+/*top text*/
+
+.mheadt{
+  font-family: 'Black Ops One', cursive;
+  font-size: 8vw;
+  width: 90vw;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  color: #E6A502;
+  position: absolute;
+}
+
+/*line*/
+
+.line{
+  background-color: rgb(255, 149, 0);
+  width:100vw;
+  height: 1vh;
+  transform: translateY(-14.5vw);
+}
+
+/*about section*/
+
+.minfo{
+  font-family: 'Black Ops One', cursive;
+  font-size: 3vw;
+  transform: translateY(-11vw);
+  color: #E6A502;
+}
+
+.infop{
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: 800;
+  width: 70vw;
+  margin-left: 15vw;
+  transform: translateY(-10vw);
+  color: #141554;
+
+}
+
+
+/* team heading*/
+.mmn{
+  font-size: 1.8em;
+  font-family: 'Black Ops One', cursive;
+  width: 70vw;
+  padding-top: 7vh;
+  font-weight:500;
+  margin-left: 18vw;
+  margin-right: 15vw;
+  margin-bottom: 6vh;
+  padding-bottom: 0.8vh;
+  color: #E6A502;
+  border-bottom: 2px solid white;
+}
+
+/*team info*/
+
+.mainpd{
+  padding-top: 5vh;
+  display:flex;
+  width:60vw;
+  justify-content: space-evenly;
+  margin-left:25vw;
+  margin-right:20vw;
+  flex-direction: row;
+}
+
+.pdism{
+  padding-top:4vh;
+  text-align: left;
+  padding-left: 2vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height:3em;
+  font-family: 'Black Ops One', cursive;
+}
+
+.teamm{
+  display: flex;
+  margin-bottom: 3vh;
+  width: 23vw;
+}
+
+.pfp{
+  width: 13vw;
+  height:13vw;
+  border-radius: 5px;
+}
+
+.name{
+  font-size: 1.7vw;
+  font-weight: 800;
+  color: #E6A502;
+;
+}
+.pdis{
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: #ccc5b9;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sea{
+  font-family: 'Black Ops One', cursive;
+}
+
+.seap{
+  font-family: 'Oswald', sans-serif;
+}
+
+/*stats*/
+
+.tmaind{
+  width:70vw;
+  margin-left: 15vw;
+  padding-top: 1vh;
+  transform:translateY(-15vh) ;
+}
+
+.tnum{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.num{
+  font-size:6vw;
+  font-weight: 800;
+  background: rgb(253,187,45);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(42,34,195,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+  }
+
+/*FAQ*/
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+
+.abody {
+	line-height: 1.5;
+	font-size: 1.25rem;
+}
+
+*:focus {
+	outline: none;
+}
+
+.abody {
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+details div {
+	border-left: 2px solid #141554;
+	border-right: 2px solid #141554;
+	border-bottom: 2px solid #141554;
+	padding: 1.5em;
+}
+
+details div > * + * {
+	margin-top: 1.5em;
+}
+
+details + details {
+	margin-top: .5rem;
+}
+
+summary {
+	list-style: none;
+  font-size: 1rem;
+}
+
+.stext{
+  font-size: 1rem;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border: 2px solid #141554;
+	padding: .75em 1em;
+	cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .75rem + .75rem);
+ font-weight: 600;
+}
+
+summary:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: .75rem;
+	content: "↓";
+	width: 1.75rem;
+	height: 1.75rem;
+	background-color: #000;
+	color: #FFF;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+
+}
+
+details[open] summary {
+	background-color: #eee;
+}
+
+details[open] summary:before {
+	content: "↑";
+}
+
+summary:hover {
+	background-color: #eee;
+}
+
+.linkk{
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	box-shadow: 0 1px 0 0;
+}
+
+.linkk:hover {
+	box-shadow: 0 3px 0 0;
+}
+
+code {
+	font-family: monospace;
+	font-weight: 600;
+}
+  
+ .ds{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.8em;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .tdis{
+    justify-content: center;
+    width:100%;
+
+  }
+/*BOTTOM*/
+  .mainc{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+   justify-content: space-around;
+   text-align: center;
+   flex-wrap: wrap;
+   align-items: center;
+   background-color:#49B3E4;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bimg{
+    width: 25vw;
+  }
+
+  .bbicon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+  }
+
+  .iccon{
+    font-size: 3.5vw;
+    color: white;
+  }
+
+  .fol{
+    font-size: 1.6vw;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: white;
+  }
+
+  .bname{
+    display: flex;
+  }
+
+  .textt{
+    color: white;
+    font-size: 1.4vw;
+  }
+
+  .itallic{
+    padding-left: 0.38vw;
+    font-style: italic;
+    color: wheat;
+    font-size: 1.4vw;
+  }
+
+.sbody{
+  scrollbar-color: red yellow;
+}
+
+.lol{
+  scrollbar-color: red yellow;
+}
+.scrollport {
+  -webkit-mask-image: linear-gradient(to left, #0000, #000, #000, #000);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain; 
+  display: flex;
+  align-items: start;
+}
+
+.simg{
+  width: 15vw;
+  margin-right:4vw;
+  border: 0.22vw solid #000000;
+}
+
+/*MISC*/
+a{
+  text-decoration: none;
+}
+
+
+/*----------------------------------END----------------------------------------------------*/
+
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 801px){
+  .mheadt{
+    padding-top: 20vh;
+    font-size: 8.5vw;
+  }
+
+  .minfo {
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.3vw;
+  }
+
+  .seap{
+    font-size: 1.6vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 15vw;
+    height:15vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 30vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 2vw;
+     
+     color: #ccc5b9;
+     transform: translateY(15.5vw);
+   }
+   
+   .me{
+    width: 50vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 1.6vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 1.6vw;
+  }
+  
+  .icont{
+  
+    font-size: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 19vh;
+   }
+
+   .icon{
+    max-height: 6vw;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 701px){
+  .mheadt{
+    padding-top: 20vh;
+    font-size: 8.5vw;
+  }
+
+  .minfo {
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.3vw;
+  }
+
+  .seap{
+    font-size: 2vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 15vw;
+    height:15vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 30vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 2vw;
+     
+     color: #ccc5b9;
+     transform: translateY(15.5vw);
+   }
+   
+   .me{
+    width: 50vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 1.6vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 1.6vw;
+  }
+  
+  .icont{
+  
+    font-size: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 18vh;
+   }
+
+   .icon{
+    max-height: 6vw;
+  }
+  summary {
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .abody{
+    width: 60vw;
+  }
+  .stext{
+    font-size: 0.9rem;
+  }
+
+  .simg{
+    width: 21vw;
+  }
+
+  .tmaind{
+    width:70vw;
+    margin-left: 15vw;
+    padding-top: 1vh;
+    transform:translateY(-11vh) ;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px){
+  .mheadt{
+    padding-top: 8vh;
+    font-size: 14vw;
+  }
+
+  .minfo {
+    font-size: 4.5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.5vw;
+  }
+
+  .seap{
+    font-size: 2vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 18vw;
+    height:18vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 32vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+
+
+  .simg{
+    width: 19vw;
+    margin-right:4vw;
+    border: 0.25vw solid #000000;
+  }
+
+  .mainc{
+    flex-direction: column;
+    height: 40vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 30vw;
+  }
+
+  .bbicon{
+    width: 12vw;
+  }
+
+  .iccon{
+    font-size: 4.5vw;
+  }
+
+  .fol{
+    font-size: 2vw;
+  }
+
+  .textt{
+    font-size: 2vw;
+  }
+
+  .itallic{
+    font-size: 2vw;
+  }
+
+  summary {
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .abody{
+    width: 70vw;
+  }
+  .stext{
+    font-size: 0.9rem;
+  }
+
+  .tmaind{
+    width:70vw;
+    margin-left: 15vw;
+    padding-top: 1vh;
+    transform:translateY(-8vh) ;
+  }
+
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 600px){
+  summary {
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .abody{
+    width: 70vw;
+  }
+  .stext{
+    font-size: 0.9rem;
+  }
+
+  
+  .mheadt{
+    padding-top: 10vh;
+    font-size: 14vw;
+  }
+
+  .minfo {
+    font-size: 4.5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3vw;
+  }
+
+  .seap{
+    font-size: 2.5vw;
+  }
+
+  .mmn{
+    font-size: 6.5vw;
+    padding-bottom: 0px;
+    margin-bottom: 3vh;
+  }
+  
+  .pfp{
+    width: 25vw;
+    height:25vw;
+ 
+  }
+  
+  .teamm{
+   margin-top: 0px;
+   padding-top: 0px;
+    width: 41vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .name{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2.5vw;
+    font-weight: 400;
+    
+  }
+
+  .simg{
+    width: 22vw;
+    margin-right:4vw;
+    border: 0.26vw solid #000000;
+  }
+
+  .mainc{
+    flex-direction: column;
+    height: 40vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 30vw;
+  }
+
+  .bbicon{
+    width: 12vw;
+  }
+
+  .iccon{
+    font-size: 4.5vw;
+  }
+
+  .fol{
+    font-size: 2vw;
+  }
+
+  .textt{
+    font-size: 2vw;
+  }
+
+  .itallic{
+    font-size: 2vw;
+  }
+
+  summary {
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .abody{
+    width: 70vw;
+  }
+  .stext{
+    font-size: 0.9rem;
+  }
+
+  .tmaind{
+    width:70vw;
+    margin-left: 15vw;
+    padding-top: 1vh;
+    transform:translateY(-6vh) ;
+  }
+
+  .num{
+    font-size: 8vw;
+  }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 500px){
+  .mheadt{
+    padding-top: 12vh;
+    font-size: 14vw;
+  }
+
+  .minfo {
+    font-size: 5.5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 6.5vw;
+    padding-bottom: 0px;
+    margin-bottom: 3vh;
+  }
+  
+  .pfp{
+    width: 25vw;
+    height:25vw;
+ 
+  }
+  
+  .teamm{
+   margin-top: 0px;
+   padding-top: 0px;
+    width: 41vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .name{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .infop{
+    font-size: 3.3vw;
+  }
+  
+  
+
+  .simg{
+    width: 28vw;
+    margin-right:4vw;
+    border: 0.28vw solid #000000;
+  }
+
+  .mainc{
+    flex-direction: column;
+    height: 45vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 40vw;
+  }
+
+  .bbicon{
+    width: 19vw;
+  }
+
+  .iccon{
+    font-size: 6.5vw;
+  }
+
+  .fol{
+    font-size: 3vw;
+  }
+
+  .textt{
+    font-size: 3vw;
+  }
+
+  .itallic{
+    font-size: 3vw;
+    padding-left: 0.8vw;
+  }
+
+  .tmaind{
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+    transform:translateY(-3.5vh) ;
+  }
+
+  .num{
+    font-size: 9vw;
+  }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px){
+  .icon1{
+    width: 20vw;
+  }
+
+  .icon2{
+    width: 20vw;
+  }
+  
+  .mheadt{
+    padding-top: 15vh;
+    font-size: 14vw;
+  }
+
+  .minfo {
+    font-size: 6vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 3.5vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 6.5vw;
+    padding-bottom: 0px;
+    margin-bottom: 3vh;
+  }
+  
+  .pfp{
+    width: 25vw;
+    height:25vw;
+ 
+  }
+  
+  .teamm{
+   margin-top: 0px;
+   padding-top: 0px;
+    width: 41vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .name{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2.5vw;
+    font-weight: 400;
+    
+  }
+  
+
+  .simg{
+    width: 32vw;
+    margin-right:4vw;
+    border: 0.3vw solid #000000;
+  }
+
+  .mainc{
+    flex-direction: column;
+    height: 45vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 40vw;
+  }
+
+  .bbicon{
+    width: 19vw;
+  }
+
+  .iccon{
+    font-size: 6.5vw;
+  }
+
+  .fol{
+    font-size: 3vw;
+  }
+
+  .textt{
+    font-size: 3vw;
+  }
+
+  .itallic{
+    font-size: 3vw;
+    padding-left: 0.8vw;
+  }
+
+  summary {
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .abody{
+    width: 70vw;
+  }
+  .stext{
+    font-size: 0.9rem;
+  }
+
+  .infop{
+    font-size: 3.5vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+  .tmaind{
+    width:80vw;
+   margin-left: auto;
+   margin-right: auto;
+    transform:translateY(-3.7vh) ;
+  }
+
+  .num{
+    font-size: 9.5vw;
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 291px){
+  .icon1{
+    width: 20vw;
+  }
+
+  .icon2{
+    width: 20vw;
+  }
+  
+  .mheadt{
+    padding-top: 12vh;
+    font-size: 15vw;
+  }
+
+  .minfo {
+    font-size: 6vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 6.5vw;
+    padding-bottom: 0px;
+    margin-bottom: 3vh;
+  }
+  
+  .pfp{
+    width: 25vw;
+    height:25vw;
+ 
+  }
+  
+  .teamm{
+   margin-top: 0px;
+   padding-top: 0px;
+    width: 41vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .name{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2.5vw;
+    font-weight: 400;
+    
+  }
+
+  .mainc{
+    flex-direction: column;
+    height: 45vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 55vw;
+  }
+
+  .bbicon{
+    width: 28vw;
+  }
+
+  .iccon{
+    font-size: 8.5vw;
+  }
+
+  .fol{
+    font-size: 5vw;
+  }
+
+  .textt{
+    font-size: 4vw;
+  }
+
+  .itallic{
+    font-size: 4vw;
+    padding-left: 0.8vw;
+  }
+
+  summary {
+    list-style: none;
+    font-size: 0.8rem;
+  }
+  .abody{
+    width: 70vw;
+  }
+  .stext{
+    font-size: 0.8rem;
+  }
+  .simg{
+    width: 37vw;
+  }
+  .infop{
+    font-size: 3.9vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+  .tmaind{
+    width:80vw;
+   margin-left: auto;
+   margin-right: auto;
+    transform:translateY(-3.7vh) ;
+  }
+
+  .num{
+    font-size: 9.5vw;
+  }
+
+  .tnum{
+    font-size: 5vw;
+  }
+
+}
+
+@media only screen and (max-width: 290px){
+  .mheadt{
+    padding-top: 15vh;
+    font-size: 15vw;
+  }
+
+  .minfo {
+    font-size: 6vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 6.5vw;
+    padding-bottom: 0px;
+    margin-bottom: 3vh;
+  }
+  
+  .pfp{
+    width: 25vw;
+    height:25vw;
+ 
+  }
+  
+  .teamm{
+   margin-top: 0px;
+   padding-top: 0px;
+    width: 41vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .name{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2.5vw;
+    font-weight: 400;
+    
+  }
+
+
+  .mainc{
+    flex-direction: column;
+    height: 45vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .c1,.c2,.c3{
+    justify-content: space-between;
+    margin-left: 3vw;
+  }
+
+  .bimg{
+    width: 60vw;
+  }
+
+  .bbicon{
+    width: 32vw;
+  }
+
+  .iccon{
+    font-size: 9.9vw;
+  }
+
+  .fol{
+    font-size: 5vw;
+  }
+
+  .textt{
+    font-size: 4.5vw;
+    margin-left:3vw;
+  }
+
+  .itallic{
+    font-size: 4.5vw;
+    padding-left: 1vw;
+  }
+
+  summary {
+    list-style: none;
+    font-size: 0.8rem;
+  }
+  .abody{
+    width: 80vw;
+  }
+  .stext{
+    font-size: 0.8rem;
+  }
+
+  .simg{
+    width: 44vw;
+  }
+
+  .infop{
+    font-size: 4.5vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+  .tmaind{
+    width:80vw;
+   margin-left: auto;
+   margin-right: auto;
+    padding-top: 1vh;
+    transform:translateY(-2.5vh) ;
+  }
+
+  .num{
+    font-size: 9.5vw;
+  }
+
+  .tnum{
+    font-size: 4vw;
+  }
+
+  .icon1{
+    width: 20vw;
+  }
+
+  .icon2{
+    width: 20vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+ 
